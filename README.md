@@ -52,6 +52,10 @@ Open http://localhost:5173.
 
 The `npm run deploy` script builds and pushes `dist/` to a `gh-pages` branch via the `gh-pages` package.
 
+## Verifying the article's findings
+
+`data/transitions.csv` contains the raw output of the crime-succession query from the article, so you can verify the numbers without running the full pipeline.
+
 ## Stack
 
 - Vite + React 18 (plain JS, no TS)
